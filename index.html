@@ -27,19 +27,107 @@
                     <ul class="h_nav-list h_nav-list-1">
                         <li class="h_nav-item">
                             <div class="h_nav-logo">
-                                <a href="#">
-                                    <img src="./assets/img/logo 2.1.svg" class="h_nav-logo-img alt=" Logo">
+                                <a href="/">
+                                    <img src="./assets/img/logo 2.1.svg" class="h_nav-logo-img" alt="Logo">
                                 </a>
                             </div>
+                            
                         </li>
-                        <li class="h_nav-item">
+                        <li class="h_nav-item hide12">
                             <div class="h_nav-title">
-                                <a href="#"><i class=" h_nav-title-icon fas fa-bars"></i></a>
-                                <span class="h_nav-title-separate h_nav-dms">Danh mục sim</span>
+                                <a href="#"><i class=" h_nav-title-icon fas fa-bars h_nav-title-separate-tks"></i></a>
+                                <span class="h_nav-title-separate h_nav-dms ">Danh mục sim</span>
                             </div>
                         </li>
-                    </ul>
 
+
+                    </ul>
+                    <input type="checkbox" hidden name="" id="nav-danhmuc" class="navinput"> 
+                    <label for="nav-danhmuc" class="nav_ovl">
+                            
+                    </label>
+                    <nav class="dm-mobile">
+                        <label for="nav-danhmuc" class="exitw">
+                            <i class="fal fa-times exit" style="width: 100%;"></i>
+                        </label>
+                        <ul class="dmlist">
+                            
+                            <li class="dmit ksit"><a href="#" class="dmit-link">
+                                <span class="khosimcom">Khosim.com</span>
+                            </a></li>
+                            <li class="dmit pl-3">
+                                <a href="#" class="dmit-link danhmucsim">
+                                    Danh mục sim
+                                </a>
+                                <ul class="dms-mobile-list">
+                                    <li class="dms-mobile-item">
+                                        <a href="#">
+                                            <i class="far fa-sim-card"></i>
+                                            <span class="">Sim theo nhà mạng</span>
+                                            <i class=" fas fa-angle-down text-left aaa"></i>    
+                                        </a>
+                                    </li>
+                                    <li class="dms-mobile-item">
+                                        <a href="#">
+                                            <i class="far fa-sim-card"></i>
+                                            <span>Sim theo giá </span>
+                                            <i class=" fas fa-angle-down text-left aaa"></i>
+                                        </a>
+                                        </li>
+                                    <li class="dms-mobile-item">
+                                        <a href="#">
+                                            <i class="far fa-sim-card"></i>
+                                            <span>Sim theo loại </span>
+                                            <i class=" fas fa-angle-down text-left aaa"></i>
+                                        </a>
+                                    
+                                    </li>
+                                    <li class="dms-mobile-item">
+                                        <a href="#">
+                                        <i class="far fa-sim-card"></i>
+                                        <span>Sim theo năm sinh</span>
+                                        <i class=" fas fa-angle-down text-left aaa"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="dmit pl-3">
+                                <a href="#" class="dmit-link danhmucsim">
+                                    Danh mục
+                                </a>
+                                <ul class="dms-mobile-list">
+                                    <li class="dms-mobile-item">
+                                        <a href="#">
+                                            <i class="fal fa-credit-card-front"></i>
+                                            <span>Đặt mua & thanh toán</span>
+                                            <i class=" fas fa-angle-down text-left aaa"></i>
+                                        </a>
+                                    </li>
+                                    <li class="dms-mobile-item">
+                                        <a href="#">
+                                            <i class="fal fa-newspaper"></i>
+                                            <span>Tin tức</span>
+                                            <i class=" fas fa-angle-down text-left aaa"></i>
+                                        </a>
+                                    </li>
+                                    <li class="dms-mobile-item">
+                                        <a href="#">
+                                            <i class="fal fa-address-card"></i>
+                                            <span>Liên hệ</span>
+                                            <i class=" fas fa-angle-down text-left aaa"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+                                </ul>
+
+
+                            </li>
+                        </ul>
+                    </nav>
                     <ul class="h_nav-list h_nav-list-2">
                         <li class="h_nav-item h_nav-item-2">
                             <div class="h_nav-with-search">
@@ -49,22 +137,40 @@
                                         <span class="h_nav-allmang-title">Tất cả mạng</span>
                                         <i class="h_nav-allmang-icon fas fa-angle-down "></i>
                                     </div>
-                                    <span class="h_nav-title-separate-tks"></span>
                                     <div class="h_nav-search-input">
-                                        <input type="text" placeholder="Tìm kiếm sim ..." class="h_nav-search-input-1 ">
+                                        <input type="tel" placeholder="Tìm kiếm sim ..." class="h_nav-search-input-1 ">
+                                        <div class="header__search-history">
+                                            <h3 class="header__search-heading d-block h-100 my-3 mx-3">
+                                                Lịch sử tìm kiếm
+                                            </h3>
+                                            <ul class="header__search-list border-top">
+                                                <li class="header__search-item">
+                                                    <a href="#">0987.059.059</a>
+                                                </li>
+                                                <li class="header__search-item">
+                                                    <a href="#">0911.000.999</a>
+                                                </li>
+                                                <li class="header__search-item">
+                                                    <a href="#">0987.333.666</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
                                         <span class="h_nav-search-btn">
                                             <i class="h_nav-search-btn-icon fas fa-search"></i>
                                         </span>
-                                    </div>
+                                </div>
 
                                 </div>
 
                             </div>
                         </li>
 
+
                     </ul>
 
                     <ul class="h_nav-list h_nav-list-3 ">
+
                         <li class="h_nav-item">
                             <div class="h_nav-help ">
                                 <i class="h_nav-help-icon fas fa-question-circle h_nav-title-separate-help"></i>
@@ -85,47 +191,57 @@
                             </div>
                         </li>
                     </ul>
+                   
+
+                    <label for="nav-danhmuc" class="ic-mbl ">
+                        <span  class="ic-mbla"><i class=" h_nav-title-icon fas fa-bars h_nav-title-separate-tks"></i></span>
+                    </label>
                 </nav>
             </div>
-            <div class="h_menu">
-                <div class="container">
-                    <div class="h_menu-bar">
-                        <ul class="h_menu-list">
+            
+                <div class="menu" >
+                    <div class="container">
+                        <ul class="mnlist">
                             <li class="h_menu-item  h_menu-item-active h_menu-item-separate">
-                                <a href="#" class="h_menu-item-link "><img src="./assets/img/Menu/home.svg" alt="home"
-                                        class="menu-ic"><span>Trang chủ</span></a>
+                                <i class="fas fa-home-lg-alt menu-ic"></i>
+                                &nbsp;        
+                                <a href="#" class="h_menu-item-link">Trang chủ</a></a>
                             </li>
-                            <li class="h_menu-item   h_menu-item-active">
-                                <a href="#" class="h_menu-item-link"><img src="./assets/img/Menu/simtheomang.svg"
-                                        alt="home" class="menu-ic"><span>Sim theo mạng</span></a>
+                            <li class="h_menu-item h_menu-item-active">
+                                <i class="far fa-sim-card"></i>
+                                &nbsp;        
+                                <a href="#" class="h_menu-item-link">Sim theo mạng</a>
                             </li>
                             <li class="h_menu-item ">
-                                <a href="#" class="h_menu-item-link"><img src="./assets/img/Menu/simtheogia.svg"
-                                        alt="home" class="menu-ic"><span> Sim theo giá</span></a>
+                                <i class="fal fa-usd-circle"></i>
+                                &nbsp;
+                                <a href="#" class="h_menu-item-link"> Sim theo giá</a>
                             </li>
                             <li class="h_menu-item">
-                                <a href="#" class="h_menu-item-link"><img src="./assets/img/Menu/simtheoloai.svg"
-                                        alt="home" class="menu-ic"><span> Sim theo loại</span></a>
+                                <i class="far fa-sim-card"></i>
+                                &nbsp;        
+                                <a href="#" class="h_menu-item-link"> Sim theo loại</a>
                             </li>
                             <li class="h_menu-item">
-                                <a href="#" class="h_menu-item-link"><img src="./assets/img/Menu/simtheonamsinh.svg"
-                                        alt="home" class="menu-ic"><span> Sim theo năm sinh</span></a>
+                                <i class="far fa-sim-card"></i>
+                                &nbsp;        
+                                <a href="#" class="h_menu-item-link"> Sim năm sinh</a>
                             </li>
                             <li class="h_menu-item">
-                                <a href="#" class="h_menu-item-link"><img src="./assets/img/Menu/thanhtoan.svg"
-                                        alt="home" class="menu-ic"><span> Thanh toán</span></a>
+                                <i class="fal fa-credit-card-front"></i>
+                                &nbsp;
+                                <a href="#" class="h_menu-item-link"> Thanh toán</a>
                             </li>
                             <li class="h_menu-item">
-                                <a href="#" class="h_menu-item-link"><img src="./assets/img/Menu/tintuc.svg" alt="home"
-                                        class="menu-ic"><span> Tin tức</span></a>
+                                <i class="fal fa-newspaper"></i>
+                                &nbsp;
+                                        <a href="#" class="h_menu-item-link"> Tin tức</a>
                             </li>
-
+    
                         </ul>
-
                     </div>
-
                 </div>
-            </div>
+
         </header>
 
         <!-- Tim sim -->
@@ -133,10 +249,9 @@
             <div class="container">
                 <div class="row">
                     <!-- MAIN -->
-                    <div class="col-8 ">
-
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-12 col-sm-12 col-md-12">
                                 <div class="bl-tim-sim ">
                                     <div class="bl-td">
                                         <h1 class="bl-td-">
@@ -144,12 +259,12 @@
                                         </h1>
                                     </div>
                                     <div class="row">
-                                        <div class="col-4 ">
+                                        <div class="col-md-4 ">
                                             <div class="bls1">
                                                 <div class="bls11">
                                                     <span class="bls1n">Chọn số sim</span>
                                                     <div class="bls1ip">
-                                                        <input type="text" placeholder="Nhập số sim bạn cần tìm..."
+                                                        <input type="tel" placeholder="Nhập số sim bạn cần tìm..."
                                                             class="bls1ipp">
                                                     </div>
 
@@ -157,7 +272,7 @@
                                                 <div class="bls11 ">
                                                     <span class="bls1n">Chọn giá tiền</span>
                                                     <div class="bls2ip">
-                                                        <input type="text" placeholder="Giá từ" class="bls2ipp">
+                                                        <input type="tel" placeholder="Giá từ" class="bls2ipp">
                                                         <span class="dd">₫</span>
                                                     </div>
 
@@ -189,7 +304,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-md-8">
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="bls2">
@@ -322,8 +437,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="bl-s mt-3">
-                                    <div class="bl-s1 pb-3 pt-2" style="display: flex;">
+                                <div class="bl-s mt-3 hide">
+                                    <div class="bl-s1 pb-3 pt-2 align-items-baseline" style="display: flex;">
                                         <h1 class="bl-s1t">Sim Số đẹp</h1>
                                     </div>
                                 </div>
@@ -335,20 +450,29 @@
                                             dạng về chủng loại, có nhiều mức giá, cho bạn thoả sức chọn số <span
                                                 class="bl-gt-s">KHOSIM.COM</span>
                                         </h4>
+                                        <h4 class="bl-gt-i-1">
+                                           <span>
+                                               Sim số đẹp giá rẻ các mạng Viettel, Mobifone, Vinaphone... Đặt mua sim
+                                                đẹp giá gốc, giao sim miễn phí toàn quốc, đăng ký thông tin chính chủ khi mua sim.
+                                           </span>
+                                        </h4>
                                     </div>
 
                                 </div>
                                 <div class="bl-s">
-                                    <div class="bl-s1 border-bottom pb-3 pt-2" style="display: flex;">
+                                    <div class="bl-s1 border-bottom  pb-3 pt-2 align-items-baseline" style="display: flex; width: 100%;">
                                         <h2 class="bl-s1t">Sim nổi bật</h2>
-                                        <a href="#" class="bl-s1tl" style="text-decoration: none;">
-                                            Xem tất cả
-                                        </a>
-                                        <i class="bl-s1ic fas fa-angle-right"></i>
+                                        <div class="xtc">
+                                            <a href="#" class="bl-s1tl" style="text-decoration: none;">
+                                                Xem tất cả
+                                            </a>
+                                            <i class="bl-s1ic fas fa-angle-right"></i>
+    
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="row ">
-                                    <div class="col">
+                                    <div class="col-md-12">
                                         <div class="prd">
                                             <ul class="prd-list">
                                                 <li class="prd-item">
@@ -1186,6 +1310,48 @@
 
                                                     </div>
                                                 </li>
+                                                <li class="prd-item">
+                                                    <a href="#" class="prd-item-link">
+                                                        <img class="prdimg"
+                                                            src="./assets/img/logofullvin/vietnamobile.svg"
+                                                            alt="Sim Vietnamobile">
+                                                        <div class="prdif">
+                                                            <div class="prd-h">
+                                                                <h5 class="prdn">0927.26.39.39</h5>
+                                                            </div>
+                                                            <div class="prdp">10.000.000 ₫</div>
+                                                        </div>
+
+                                                    </a>
+
+                                                    <div class="it-ovl">
+                                                        <div id="ovlc">
+
+                                                            <i class="ovlcic fas fa-shopping-cart"></i>
+                                                            <span class="ovlcmn">Mua ngay</span>
+                                                        </div>
+
+                                                    </div>
+                                                </li>
+                                                <li class="prd-item xemthem">
+                                                    <a href="#" class="prd-item-link">
+                                                        <div class="ovlxt">
+                                                            
+                                                        </div>
+                                                        <span class="ovlxt1">Xem thêm</span>
+
+                                                    </a>
+
+                                                    <div class="it-ovl">
+                                                        <div id="ovlc">
+
+                                                            <i class="ovlcic fas fa-shopping-cart"></i>
+                                                            <span class="ovlcmn">Mua ngay</span>
+                                                        </div>
+
+                                                    </div>
+                                                </li>
+                                                
 
                                             </ul>
                                         </div>
@@ -1200,10 +1366,13 @@
                                         <div class="bl-s">
                                             <div class="bl-s1 border-bottom pb-3 pt-2">
                                                 <span class="bl-s1t">Sim trả góp</span>
-                                                <a href="#" class="bl-s1tl" style="text-decoration: none;">
-                                                    Xem tất cả
-                                                </a>
-                                                <i class="bl-s1ic fas fa-angle-right"></i>
+                                                <div class="stgg1">
+                                                    <a href="#" class="bl-s1tl" style="text-decoration: none;">
+                                                        Xem tất cả
+                                                    </a>
+                                                    <i class="bl-s1ic fas fa-angle-right"></i>
+    
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="prd">
@@ -2043,6 +2212,7 @@
 
                                                     </div>
                                                 </li>
+                                                
 
                                             </ul>
                                             <div class="xtsim">
@@ -2056,10 +2226,13 @@
                                         <div class="bl-s">
                                             <div class="bl-s1 border-bottom pb-3 pt-2">
                                                 <span class="bl-s1t">Sim Vietnamobile</span>
-                                                <a href="#" class="bl-s1tl" style="text-decoration: none;">
-                                                    Xem tất cả
-                                                </a>
-                                                <i class="bl-s1ic fas fa-angle-right"></i>
+                                                <div class="svnmb1">
+                                                    <a href="#" class="bl-s1tl" style="text-decoration: none;">
+                                                        Xem tất cả
+                                                    </a>
+                                                    <i class="bl-s1ic fas fa-angle-right"></i>
+    
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="prd">
@@ -2910,20 +3083,14 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-
                         </div>
-
-
-
-
                     </div>
                     <!-- SIDE RIGHT -->
-                    <div class="col-4">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
 
-                        <div class="row">
+                        <div class="row hide-on-mobile-tablet hidets">
                             <div class="col-12 border">
                                 <div class="rtt border-bottom ">
                                     <h5 class="rtth">HOTline</h5>
@@ -3391,98 +3558,73 @@
         </div>
 
         <!-- FOOTER -->
+
         <footer class="container mt-2 mb-3">
             <div class="row ft-nav border">
-                <div class="col-md-7 " id="footer-nav">
-                    <div class="row">
-                        <div class="col-12 col-sm-4 col-md-4">
-                            <div class="dms">
-                                <div class="dmsic">
-                                    <i class="far fa-sim-card fs249"></i>
-                                </div>
-                                <div class="dmstt">
-                                    <span class="dmstt1 fs144">
-                                        Đặt mua sim
-                                    </span>
-                                </div>
-
-                            </div>
+                <ul class="ftlist" id="footer-nav">
+                    <li class="ftitem">
+                        <div class="dmsic">
+                            <i class="far fa-sim-card fs249"></i>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4">
-                            <div class="dms">
-                                <div class="dmsic">
-                                    <i class="fs249 fal fa-credit-card"></i>
-                                </div>
-                                <div class="dmstt">
-                                    <span class="dmstt1 fs144">
-                                        Thanh toán tiền mặt, chuyển khoản
-                                    </span>
-                                </div>
-
-                            </div>
+                        <div class="dmstt">
+                            <span class="dmstt1 fs144">
+                                Đặt mua sim
+                            </span>
                         </div>
-
-                        <div class="col-12 col-sm-4 col-md-4">
-                            <div class="dms">
-                                <div class="dmsic">
-                                    <i class="fs249 fal fa-piggy-bank"></i>
-                                </div>
-                                <div class="dmstt">
-                                    <span class="dmstt1 fs144">
-                                        Hỗ trợ trả góp
-                                    </span>
-                                </div>
-
-                            </div>
+                    </li>
+                    <li class="ftitem">
+                        
+                        <div class="dmsic">
+                            <i class="fs249 fal fa-credit-card"></i>
                         </div>
-
-                    </div>
-                </div>
-                <div class="col-md-5 ft2">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-6">
-                            <div class="dms">
-                                <div class="dmsic">
-                                    <i class="fs249 fal fa-truck-moving"></i>
-                                </div>
-                                <div class="dmstt">
-                                    <span class="dmstt1 fs144">
-                                        Giao sim nhanh trong ngày
-                                    </span>
-                                </div>
-
-                            </div>
+                        <div class="dmstt">
+                            <span class="dmstt1 fs144">
+                                Thanh toán tiền mặt, chuyển khoản
+                            </span>
                         </div>
-
-                        <div class="col-12 col-sm-6 col-md-6">
-                            <div class="dms">
-                                <div class="dmsic">
-                                    <i class="fs249 fal fa-check-circle"></i>
-                                </div>
-                                <div class="dmstt">
-                                    <span class="dmstt1 fs144">
-                                        Kiểm tra xong thanh toán
-                                    </span>
-                                </div>
-
-                            </div>
+                    </li>
+                    <li class="ftitem">
+                        <div class="dmsic">
+                            <i class="fs249 fal fa-piggy-bank"></i>
                         </div>
-
-
-                    </div>
-                </div>
-
-
+                        <div class="dmstt">
+                            <span class="dmstt1 fs144">
+                                Hỗ trợ trả góp
+                            </span>
+                        </div>
+                    </li>
+                    <li class="ftitem">
+                        <div class="dmsic">
+                            <i class="fs249 fal fa-truck-moving"></i>
+                        </div>
+                        <div class="dmstt">
+                            <span class="dmstt1 fs144">
+                                Giao sim nhanh trong ngày
+                            </span>
+                        </div>
+                    </li>
+                    <li class="ftitem">
+                        <div class="dmsic">
+                            <i class="fs249 fal fa-check-circle"></i>
+                        </div>
+                        <div class="dmstt">
+                            <span class="dmstt1 fs144">
+                                Kiểm tra xong thanh toán
+                            </span>
+                        </div>
+                    </li>
+                </ul>
             </div>
 
         </footer>
+
         <div class="container-fluid" >
             <div class="row" back>
                 <div class="f3nav">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="ft-ti pt-4">
+                                <div class="ft-ti pt-4 pb-5">
                                     <p>© <strong>Kho Sim - Công ty TNHH TMDV Viễn thông Kho Sim. GPDKKD: 0314882320 do sở KH & ĐT TP.HCM cấp ngày 07/02/2018</strong></p>
                                 </div>
                             </div>
