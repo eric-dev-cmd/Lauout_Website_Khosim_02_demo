@@ -92,7 +92,26 @@
     .h_nav-list-1 {
         width: 6%;
     }
-    
+    .btnsi{
+        background: #002257;
+        color: #E4E4E4;
+    }
+    .icxt, .btnxt{
+        color: white;
+    }
+    .menu-pc{
+        margin-top: 49px;
+    }
+    .header{
+        position: relative;
+    }
+    .abc{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 3;
+    }
 }
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px){
@@ -128,7 +147,9 @@
     .h_nav-list-1 {
         width: 12%;
     }
-
+    .khosimcom::before{
+        right: -4px;
+    }
 }
 @media (max-width: 350px){
     .h_nav-title{
@@ -151,6 +172,9 @@
 {
     .h_nav-list-1 {
         width: 13%;
+    }
+    .f3nav{
+        padding-bottom: 25px;
     }
 }
 

@@ -21,8 +21,8 @@
 <body>
     
     <div class="app">
-        <header class="header">
-            <div class="container">
+        <header class="header" >
+            <div class="container abc">
                 <nav class="h_nav">
                     <ul class="h_nav-list h_nav-list-1">
                         <li class="h_nav-item">
@@ -198,52 +198,52 @@
                     </label>
                 </nav>
             </div>
-            
-                <div class="menu" >
-                    <div class="container">
-                        <ul class="mnlist">
-                            <li class="h_menu-item  h_menu-item-active h_menu-item-separate">
-                                <i class="fas fa-home-lg-alt menu-ic"></i>
-                                &nbsp;        
-                                <a href="#" class="h_menu-item-link">Trang chủ</a></a>
-                            </li>
-                            <li class="h_menu-item h_menu-item-active">
-                                <i class="far fa-sim-card"></i>
-                                &nbsp;        
-                                <a href="#" class="h_menu-item-link">Sim theo mạng</a>
-                            </li>
-                            <li class="h_menu-item ">
-                                <i class="fal fa-usd-circle"></i>
-                                &nbsp;
-                                <a href="#" class="h_menu-item-link"> Sim theo giá</a>
-                            </li>
-                            <li class="h_menu-item">
-                                <i class="far fa-sim-card"></i>
-                                &nbsp;        
-                                <a href="#" class="h_menu-item-link"> Sim theo loại</a>
-                            </li>
-                            <li class="h_menu-item">
-                                <i class="far fa-sim-card"></i>
-                                &nbsp;        
-                                <a href="#" class="h_menu-item-link"> Sim năm sinh</a>
-                            </li>
-                            <li class="h_menu-item">
-                                <i class="fal fa-credit-card-front"></i>
-                                &nbsp;
-                                <a href="#" class="h_menu-item-link"> Thanh toán</a>
-                            </li>
-                            <li class="h_menu-item">
-                                <i class="fal fa-newspaper"></i>
-                                &nbsp;
-                                        <a href="#" class="h_menu-item-link"> Tin tức</a>
-                            </li>
-    
-                        </ul>
-                    </div>
-                </div>
 
         </header>
+        <div class="menu-pc">
+            <div class="menu" >
+                <div class="container">
+                    <ul class="mnlist">
+                        <li class="h_menu-item  h_menu-item-active h_menu-item-separate">
+                            <i class="fas fa-home-lg-alt menu-ic"></i>
+                            &nbsp;        
+                            <a href="#" class="h_menu-item-link">Trang chủ</a></a>
+                        </li>
+                        <li class="h_menu-item h_menu-item-active">
+                            <i class="far fa-sim-card"></i>
+                            &nbsp;        
+                            <a href="#" class="h_menu-item-link">Sim theo mạng</a>
+                        </li>
+                        <li class="h_menu-item ">
+                            <i class="fal fa-usd-circle"></i>
+                            &nbsp;
+                            <a href="#" class="h_menu-item-link"> Sim theo giá</a>
+                        </li>
+                        <li class="h_menu-item">
+                            <i class="far fa-sim-card"></i>
+                            &nbsp;        
+                            <a href="#" class="h_menu-item-link"> Sim theo loại</a>
+                        </li>
+                        <li class="h_menu-item">
+                            <i class="far fa-sim-card"></i>
+                            &nbsp;        
+                            <a href="#" class="h_menu-item-link"> Sim năm sinh</a>
+                        </li>
+                        <li class="h_menu-item">
+                            <i class="fal fa-credit-card-front"></i>
+                            &nbsp;
+                            <a href="#" class="h_menu-item-link"> Thanh toán</a>
+                        </li>
+                        <li class="h_menu-item">
+                            <i class="fal fa-newspaper"></i>
+                            &nbsp;
+                                    <a href="#" class="h_menu-item-link"> Tin tức</a>
+                        </li>
 
+                    </ul>
+                </div>
+            </div>
+        </div>
         <!-- Tim sim -->
         <div class="main">
             <div class="container">
@@ -258,6 +258,7 @@
                                             Tìm sim
                                         </h1>
                                     </div>
+                                <form action="/" method="get">
                                     <div class="row">
                                         <div class="col-md-4 ">
                                             <div class="bls1">
@@ -320,27 +321,27 @@
                                                             <tr class="tbltr">
                                                                 <td class="tbltd">
                                                                     <div class="mbf">
-                                                                        <input type="checkbox" name="" id="">
-                                                                        <span class="mbf1 vina">&nbsp;<span class="mobi">Mobi</span><span class="fone">fone</span></span>
+                                                                        <input type="checkbox" name="" id="chk1">
+                                                                        <label for="mobfchk" class="mbf1 vina">&nbsp;<span class="mobi">Mobi</span><span class="fone">fone</span></label>
                                                                     </div>
                                                                 </td>
 
                                                                 <td class="tbltd">
                                                                     <div class="mbf">
-                                                                        <input type="checkbox" name="" id="">
-                                                                        <span class="mbf1 vina">&nbsp;Vinaphone</span>
+                                                                        <input type="checkbox" name="" id="chk2">
+                                                                        <label for="chk2" class="mbf1 vina">&nbsp;Vinaphone</label>
                                                                     </div>
                                                                 </td>
                                                                 <td>
                                                                     <div class="mbf">
-                                                                        <input type="checkbox" name="" id="">
-                                                                        <span class="mbf1 vnmb">&nbsp;Vietnamobile</span>
+                                                                        <input type="checkbox" name="" id="chk3">
+                                                                        <label for="chk3" class="mbf1 vnmb">&nbsp;Vietnamobile</label>
                                                                     </div>
                                                                 </td>
                                                                 <td>
                                                                     <div class="mbf">
-                                                                        <input type="checkbox" name="" id="">
-                                                                        <span class="mbf1 viettel">&nbsp;Viettel</span>
+                                                                        <input type="checkbox" name="" id="chk4">
+                                                                        <label for="chk4" class="mbf1 viettel">&nbsp;Viettel</label>
                                                                     </div>
                                                                 </td>
 
@@ -349,27 +350,27 @@
                                                             <tr class="tbltr">
                                                                 <td class="tbltd">
                                                                     <div class="mbf">
-                                                                        <input type="checkbox" name="" id="">
-                                                                        <span class="mbf1 vina">&nbsp;<span class="reddi">Reddi</span></span>
+                                                                        <input type="checkbox" name="" id="chk5">
+                                                                        <label for="chk5" class="mbf1 vina">&nbsp;<span class="reddi">Reddi</span></label>
                                                                     </div>
                                                                 </td>
 
                                                                 <td class="tbltd">
                                                                     <div class="mbf">
-                                                                        <input type="checkbox" name="" id="">
-                                                                        <span class="mbf1 --gmobile-itelecom-all-cl">&nbsp;<span class="gmobile">Gmobile</span></span>
+                                                                        <input type="checkbox" name="" id="chk6">
+                                                                        <label for="chk6" class="mbf1 --gmobile-itelecom-all-cl">&nbsp;<span class="gmobile">Gmobile</span></label>
                                                                     </div>
                                                                 </td>
                                                                 <td>
                                                                     <div class="mbf">
-                                                                        <input type="checkbox" name="" id="">
-                                                                        <span class="mbf1 --gmobile-itelecom-all-cl">&nbsp;<span class="itelecom">Itelecom</span></span>
+                                                                        <input type="checkbox" name="" id="chk7">
+                                                                        <label for="chk7" class="mbf1 --gmobile-itelecom-all-cl">&nbsp;<span class="itelecom">Itelecom</span></label>
                                                                     </div>
                                                                 </td>
                                                                 <td>
                                                                     <div class="mbf">
-                                                                        <input type="checkbox" name="" id="">
-                                                                        <span class="mbf1 --gmobile-itelecom-all-cl">&nbsp;<span class="all">Tất cả</span></span>
+                                                                        <input type="checkbox" name="" id="chk8">
+                                                                        <label for="chk8" class="mbf1 --gmobile-itelecom-all-cl">&nbsp;<span class="all">Tất cả</span></label>
                                                                     </div>
                                                                 </td>
 
@@ -436,6 +437,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                </form>
                                 </div>
                                 <div class="bl-s mt-3 hide">
                                     <div class="bl-s1 pb-3 pt-2 align-items-baseline" style="display: flex;">
@@ -3559,7 +3561,7 @@
 
         <!-- FOOTER -->
 
-        <footer class="container mt-2 mb-3">
+        <footer class="container mt-2">
             <div class="row ft-nav border">
                 <ul class="ftlist" id="footer-nav">
                     <li class="ftitem">
@@ -3618,13 +3620,13 @@
 
         </footer>
 
-        <div class="container-fluid" >
+        <div class="container-fluid mt-3" >
             <div class="row" back>
                 <div class="f3nav">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="ft-ti pt-4 pb-5">
+                                <div class="ft-ti pt-4">
                                     <p>© <strong>Kho Sim - Công ty TNHH TMDV Viễn thông Kho Sim. GPDKKD: 0314882320 do sở KH & ĐT TP.HCM cấp ngày 07/02/2018</strong></p>
                                 </div>
                             </div>
