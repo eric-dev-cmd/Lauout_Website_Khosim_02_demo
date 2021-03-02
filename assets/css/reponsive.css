@@ -112,6 +112,19 @@
         right: 0;
         z-index: 3;
     }
+    .prd-h .prdn {
+        color: #151515;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .prd-item .prd-item-link {
+        color: #FF0000;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+    .dong{
+        font-weight: 600;
+    }
 }
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px){
@@ -124,7 +137,9 @@
     .h_nav-title-icon{
         height: 28px;
     }
-
+    .ttdhig{
+        padding-left: 10px;
+    }
 }
 /* Mobile */
 @media (max-width: 767px){
@@ -150,6 +165,58 @@
     .khosimcom::before{
         right: -4px;
     }
+    .dtvtt{
+        padding-bottom: 42px;
+    }
+    .vcb1{
+        margin-bottom: 12px;
+    }
+}
+@media (max-width: 425px)
+{
+    .h_nav-list-1 {
+        width: 10%;
+    }
+    .bctt{
+        padding: 5px 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 23px;
+    }
+
+    .h_nav-list-1 {
+        width: 13%;
+    }
+    .f3nav{
+        padding-bottom: 25px;
+    }
+    .sdmlist1{
+        display: block;
+        margin: 0;
+    }
+    .sdmW{
+        margin-bottom: 0;
+    }
+    .sdmlist1 .sdmitem1:nth-child(3){
+        text-align: center;
+    padding: 10px 0;
+    }
+    .neW2-item .neWimg{
+        height: 90px;
+    }
+    .fs16700{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .hidenew{
+        display: none;
+    }
+    .neW-wrapper {
+        width: 64%;
+    }
+    .neW2-item a {
+        width: 35%;
+    }
 }
 @media (max-width: 350px){
     .h_nav-title{
@@ -161,20 +228,28 @@
         width: 100%;
         
     }
-}
-@media (max-width: 425px)
-{
-    .h_nav-list-1 {
-        width: 10%;
+    .bctt{
+        padding: 5px 5px !important;
+        position: absolute;
+        bottom: 13px !important;;
+        left: -4px !important;;
+        box-shadow: none;
+    }
+    .dtvtt {
+        padding-bottom: 36px !important;
+    }
+    .ss3bo{
+        left: 140px  !important;
     }
 }
-@media (max-width: 425px)
-{
-    .h_nav-list-1 {
-        width: 13%;
-    }
-    .f3nav{
-        padding-bottom: 25px;
+
+@media (max-width: 376px){
+    .bctt{
+        padding: 5px 15px;
+    position: absolute;
+    bottom: 12px;
+    left: 3px;
+    box-shadow: none;
     }
 }
 
